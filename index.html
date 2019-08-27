@@ -7,6 +7,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio</title>
   </head>
@@ -17,7 +18,7 @@
         <div class="header__inner">
           <div class="user">
             <div class="user__avatar">
-              <img src="./images/logo.svg" alt="" />
+              <a href="#"><img src="./images/logo.svg" alt=""/></a>
             </div>
             <div class="user__content">
               <div class="user__name">Roman<br />Grigorev</div>
@@ -28,7 +29,6 @@
           <nav class="nav">
             <a class="nav__link" href="#">work</a>
             <a class="nav__link" href="#">about me</a>
-            <a class="nav__link" href="#">contact</a>
             <a class="nav__link  nav__link--btn" href="#">hire me</a>
           </nav>
         </div>
@@ -36,7 +36,7 @@
     </header>
 
     <!-- Intro -->
-    <section class="intro">
+    <section class="intro section--bg-laptop">
       <div class="container">
         <div class="intro__inner">
           <div class="intro__content">
@@ -56,8 +56,6 @@
             <a class="btn" href="#">HIRE ME</a>
             <button class="btn" type="button">SEE MY RESUME</button>
           </div>
-
-          <!-- <img class="intro__photo" src="images/myphoto.png" alt="" /> -->
         </div>
         <!-- /.intro__inner -->
       </div>
@@ -71,7 +69,6 @@
           <a class="works__nav-link" href="#">All</a>
           <a class="works__nav-link" href="#">App</a>
           <a class="works__nav-link" href="#">Websites</a>
-          <a class="works__nav-link" href="#">Interaction</a>
         </div>
 
         <div class="portfolio">
@@ -79,109 +76,14 @@
             <div class="work">
               <img
                 class="work__image"
-                src="https://placehold.it/370x300"
-                alt=""
+                src="./images/my-syte1.png"
+                alt="photo1"
               />
               <div class="work__content">
-                <div class="work__cat">category</div>
+                <div class="work__cat">Websites</div>
                 <div class="work__title">
-                  Project title
-                  <time class="work__date" datetime="2019-11-22 19:00"
-                    >2019</time
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio__col">
-            <div class="work">
-              <img
-                class="work__image"
-                src="https://placehold.it/370x300"
-                alt=""
-              />
-              <div class="work__content">
-                <div class="work__cat">category</div>
-                <div class="work__title">
-                  Project title
-                  <time class="work__date" datetime="2019-11-22 19:00"
-                    >2019</time
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio__col">
-            <div class="work">
-              <img
-                class="work__image"
-                src="https://placehold.it/370x300"
-                alt=""
-              />
-              <div class="work__content">
-                <div class="work__cat">category</div>
-                <div class="work__title">
-                  Project title
-                  <time class="work__date" datetime="2019-11-22 19:00"
-                    >2019</time
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio__col">
-            <div class="work">
-              <img
-                class="work__image"
-                src="https://placehold.it/370x300"
-                alt=""
-              />
-              <div class="work__content">
-                <div class="work__cat">category</div>
-                <div class="work__title">
-                  Project title
-                  <time class="work__date" datetime="2019-11-22 19:00"
-                    >2019</time
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio__col">
-            <div class="work">
-              <img
-                class="work__image"
-                src="https://placehold.it/370x300"
-                alt=""
-              />
-              <div class="work__content">
-                <div class="work__cat">category</div>
-                <div class="work__title">
-                  Project title
-                  <time class="work__date" datetime="2019-11-22 19:00"
-                    >2019</time
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio__col">
-            <div class="work">
-              <img
-                class="work__image"
-                src="https://placehold.it/370x300"
-                alt=""
-              />
-              <div class="work__content">
-                <div class="work__cat">category</div>
-                <div class="work__title">
-                  Project title
-                  <time class="work__date" datetime="2019-11-22 19:00"
+                  Site-Portfolio
+                  <time class="work__date" datetime="2019-08-27 16:40"
                     >2019</time
                   >
                 </div>
@@ -246,28 +148,7 @@
         <div class="footer__inner">
           <div class="footer__credits">
             <div class="footer__copyright">
-              &copy; 2018 UI43 - Free Templates
-            </div>
-
-            <div class="footer__social">
-              <a href="#" target="_blank">
-                <img src="images/behance-gray.svg" width="24" alt="" />
-              </a>
-              <a href="#" target="_blank">
-                <img src="images/dribbble-gray.svg" width="18" alt="" />
-              </a>
-              <a href="#" target="_blank">
-                <img src="images/linkedin-gray.svg" width="18" alt="" />
-              </a>
-              <a href="#" target="_blank">
-                <img src="images/fb-gray.svg" height="18" alt="" />
-              </a>
-              <a href="#" target="_blank">
-                <img src="images/instagram-gray.svg" width="18" alt="" />
-              </a>
-              <a href="#" target="_blank">
-                <img src="images/twitter-gray.svg" width="20" alt="" />
-              </a>
+              &copy; 2019 Roman Grigorev
             </div>
           </div>
           <!-- /.footer__credits -->
@@ -275,8 +156,6 @@
           <nav class="footer__nav">
             <a class="footer__nav-link" href="#">Work</a>
             <a class="footer__nav-link" href="#">About me</a>
-            <a class="footer__nav-link" href="#">Blog</a>
-            <a class="footer__nav-link" href="#">Contact</a>
             <a class="footer__nav-link  footer__nav-link--btn" href="#"
               >Hire me</a
             >
